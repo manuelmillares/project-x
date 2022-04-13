@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Typography, Box, Stepper, Step, StepLabel, StepContent, Button} from '@material-ui/core';
+import {Link, Typography, Box, Stepper, Step, StepLabel, StepContent, Button} from '@material-ui/core';
 
 
 const steps = [
@@ -86,9 +86,11 @@ const Home = () => {
         ))}
       </Stepper>
       <div  style={{textAlign: "center"}}> 
-      <Button  variant="contained" color="success">
-        REGISTRARME
-      </Button>
+      <Link href="/signup" variant="body2">
+        <Button  variant="contained" color="success">
+          REGISTRARME
+        </Button>
+      </Link>
        </div>
     </Box>
     <Typography style={{padding:"5%"}} variant="h2" gutterBottom component="div">
