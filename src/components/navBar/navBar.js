@@ -5,9 +5,9 @@ import logo from "../../static/images/logo.jpeg";
 import Background from "../../static/images/portada.png";
 import { Link } from "react-router-dom";
 
-const pages = ['Invertir', 'Como Funciona', 'Sobre Nosotros', 'Blog', 'Ayuda'];
+const pages = ['Home', 'Invertir', 'Como Funciona', 'Sobre Nosotros', 'Blog', 'Ayuda'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-const urls = ['/invest', 'Account', 'Dashboard', 'Logout', "Logout"];
+const urls = ['/', '/invest', 'Account', 'Dashboard', 'Logout', "Logout"];
 
 
 
