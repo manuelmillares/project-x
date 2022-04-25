@@ -1,5 +1,6 @@
 import * as React from 'react';
-import {Link, Typography, Box, Stepper, Step, StepLabel, StepContent, Button} from '@material-ui/core';
+import { Typography, Box, Stepper, Step, StepLabel, StepContent, Button} from '@material-ui/core';
+import { Link } from "react-router-dom";
 
 
 const steps = [
@@ -86,7 +87,7 @@ const Home = () => {
         ))}
       </Stepper>
       <div  style={{textAlign: "center"}}> 
-      <Link href="/signup" variant="body2">
+      <Link to="/signup">
         <Button  variant="contained" color="success">
           REGISTRARME
         </Button>
