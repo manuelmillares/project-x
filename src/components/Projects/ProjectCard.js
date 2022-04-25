@@ -45,7 +45,7 @@ export default function ProjectCard() {
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
-            R
+            SE
           </Avatar>
         }
         action={
@@ -57,9 +57,10 @@ export default function ProjectCard() {
         subheader="Ventaja Solar 3, S.L"
       />
       <CardMedia
-        className={classes.media}
-        image="../../static/images/portada.png"
-        title="Paella dish"
+        component="img"
+        image={require('../../static/images/project1.jpg')}
+        height="194"
+        alt="Paella dish"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
@@ -114,7 +115,6 @@ export default function ProjectCard() {
         </CardContent>
       </Collapse>
     </Card>
-          <img src={"../../static/images/logo.jpeg"} alt="Kitty Katty!" />
     </ div>
   );
 }

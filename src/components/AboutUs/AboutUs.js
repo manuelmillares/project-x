@@ -16,16 +16,16 @@ const AboutUs = () => {
         NUESTRA HISTORIA
         </Typography>
         <Typography variant="subtitle1" gutterBottom component="div">
-        Fundeen nace de la idea de los hermanos Nacho y Adrián Bautista, con una gran ambición. Desde muy jóvenes empezaron desarrollando nuevas ideas de negocio, desde una “empresa” para limpiar palos de golf cuando tenían 12 años, hasta otros proyectos presentados al mismo programa de emprendimiento que posteriormente vio nacer a Fundeen.
+        Solsystems nace de la idea de los hermanos Nacho y Adrián Bautista, con una gran ambición. Desde muy jóvenes empezaron desarrollando nuevas ideas de negocio, desde una “empresa” para limpiar palos de golf cuando tenían 12 años, hasta otros proyectos presentados al mismo programa de emprendimiento que posteriormente vio nacer a Solsystems.
         </Typography>
         <Typography variant="subtitle1" gutterBottom component="div">
-        Los hermanos querían hacer algo útil para el mundo y el futuro. Es por lo que decidieron crear Fundeen - con un claro objetivo: incentivar el cambio en la sociedad mediante apoyo financiero a las tecnologías limpias. Sus propósitos con Fundeen son facilitar las inversiones, su rentabilidad y a la vez causar impacto hacia un mundo más avanzado y más limpio.</Typography>
+        Los hermanos querían hacer algo útil para el mundo y el futuro. Es por lo que decidieron crear Solsystems - con un claro objetivo: incentivar el cambio en la sociedad mediante apoyo financiero a las tecnologías limpias. Sus propósitos con Solsystems son facilitar las inversiones, su rentabilidad y a la vez causar impacto hacia un mundo más avanzado y más limpio.</Typography>
         
         <Typography variant="h6" gutterBottom component="div">
         NUESTROS VALORES
         </Typography>
         <Typography variant="subtitle1" gutterBottom component="div">
-        Transparencia: En Fundeen, no tenemos secretos con lo que nos cobran terceras partes, con lo que cobramos nosotros o con lo que asumimos nosotros. Os comunicamos todo, de verdad.
+        Transparencia: En Solsystems, no tenemos secretos con lo que nos cobran terceras partes, con lo que cobramos nosotros o con lo que asumimos nosotros. Os comunicamos todo, de verdad.
         </Typography>
         <Typography variant="subtitle1" gutterBottom component="div">
         Seguridad: Cada inversión tiene su parte de riesgo, nos esforzamos para que sea mínima. Estamos regulados por la CNMV. Por tanto, cumplimos con todos los requisitos de calidad exigidos por la regulación española y europea para garantizar la seguridad de tu dinero.
