@@ -54,6 +54,9 @@ function Navbar() {
             <Link to="/invest" className={classes.link}>
               Invertir
             </Link>
+            <Link to="/how-it-works" className={classes.link}>
+              Como Funnciona
+            </Link>
             <Link to="/contact" className={classes.link}>
               Contact
             </Link>

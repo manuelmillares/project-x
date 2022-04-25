@@ -8,7 +8,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
-        <Container style={{paddingTop: "20%"}}>
+        <Container style={{paddingTop: "5%"}}>
           <MyRoutes />
         </Container>
       </Router>

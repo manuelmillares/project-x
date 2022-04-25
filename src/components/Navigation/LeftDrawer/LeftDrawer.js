@@ -5,24 +5,11 @@ import {
   List,
   ListItem,
   ListItemText,
- makeStyles
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
 
-const useStyles = makeStyles(()=>({
-    link:{
-        textDecoration:"none",
-        color: "blue",
-        fontSize: "20px",
-    },
-    icon:{
-        color: "white"
-    }
-}));
-
 function LeftDrawer() {
-const classes = useStyles();
   const [openDrawer, setOpenDrawer] = useState(false);
   return (
     <>
@@ -38,7 +25,12 @@ const classes = useStyles();
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/about">About</Link>
+              <Link to="/invest">Invertir</Link>
+            </ListItemText>
+          </ListItem>
+          <ListItem onClick={() => setOpenDrawer(false)}>
+            <ListItemText>
+              <Link to="/how-it-works">Como Funciona</Link>
             </ListItemText>
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
