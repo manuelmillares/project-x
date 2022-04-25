@@ -57,11 +57,8 @@ function Navbar() {
             <Link to="/how-it-works" className={classes.link}>
               Como Funnciona
             </Link>
-            <Link to="/contact" className={classes.link}>
-              Contact
-            </Link>
-            <Link to="/faq" className={classes.link}>
-              FAQ
+            <Link to="/about-us" className={classes.link}>
+              Sobre Nosotros
             </Link>
           </div>
         )}

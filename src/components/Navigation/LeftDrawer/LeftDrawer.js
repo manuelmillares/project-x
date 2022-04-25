@@ -35,12 +35,7 @@ function LeftDrawer() {
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/contact">Contact</Link>
-            </ListItemText>
-          </ListItem>
-          <ListItem onClick={() => setOpenDrawer(false)}>
-            <ListItemText>
-              <Link to="/about">Faq</Link>
+              <Link to="/about-us">Sobre Nosotros</Link>
             </ListItemText>
           </ListItem>
         </List>
